@@ -1,6 +1,7 @@
+let driver = {};
 describe('drivers', function() {
   describe('updateDriverWithKeyAndValue(driver, key, value)', function () {
-    beforeEach(function () {
+    beforeEach(function () {      
       for (const key in driver) {
         delete driver[key];
       }
